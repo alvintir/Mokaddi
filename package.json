@@ -1,0 +1,21 @@
+{
+  "name": "mokaddi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend_mokaddi && npm install && cd ../frontend_mokaddi && npm install && npm run build",
+    "start": "node backend_mokaddi/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvintir/Mokaddi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvintir/Mokaddi/issues"
+  },
+  "homepage": "https://github.com/alvintir/Mokaddi#readme"
+}
